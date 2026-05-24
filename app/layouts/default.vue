@@ -21,8 +21,10 @@ onUnmounted(() => {
 
 const navigation = [
   { name: 'Home', path: '/', icon: Home },
-  { name: 'Explore', path: '/explore', icon: Compass },
-  { name: 'Community', path: '/community', icon: Clapperboard },
+  { name: 'Moods', path: '/moods', icon: Compass }, 
+  { name: 'Shorts', path: '/shorts', icon: Compass },
+  { name: 'Live Premiere', path: '/premiere', icon: Clapperboard },
+  { name: 'Collab Network', path: '/collab', icon: Clapperboard },
 ]
 </script>
 
